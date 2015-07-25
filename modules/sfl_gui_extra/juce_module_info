@@ -1,0 +1,17 @@
+{
+  "id":             "sfl_gui_extra",
+  "name":           "SFL GUI Extra",
+  "version":        "1.0.0",
+  "description":    "JUCE additional components, widgets, etc...",
+  "website":        "http://none",
+  "license":        "The MIT License (MIT)",
+
+  "dependencies":   [ { "id": "juce_core", "version": "matching" }, { "id": "juce_gui_basics", "version": "matching" } ],
+
+  "include":        "sfl_gui_extra.h",
+
+  "compile":        [ { "file": "sfl_gui_extra.cpp", "target": "! xcode" } ],
+
+  "browse":         [ "widgets/*" ]
+
+}
